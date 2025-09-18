@@ -1,43 +1,19 @@
-```markdown
-# Healthcare Appointment System
+# Healthcare Fullstack (React + Express + SQLite)
 
+## Quickstart (dev)
+# 1. Clone
+git clone <repo-url>
+cd healthcare-fullstack
 
-A frontend web app where patients can:
-- Search for doctors by specialization and location
-- View available slots in a calendar
-- Book an appointment
-- See a summary of upcoming visits
+# 2. Install root + server + client
+npm run install:all
 
-
-### Features
-✅ Accessible (a11y) with ARIA roles and semantic HTML
-✅ Client-side validation for forms
-✅ Responsive & styled with Tailwind CSS
-
-
-### Getting Started
-```bash
-# Clone repo
-git clone https://github.com/yourusername/healthcare-appointment-frontend.git
-cd healthcare-appointment-frontend
-
-
-# Install dependencies
-npm install
-
-
-# Run locally
+# 3. Start dev servers (server on :4000, client on :5173)
 npm run dev
-```
+
+# Open http://localhost:5173
+
+## Production
+You can build the client and serve static files from Express or deploy separately.
 
 
-### Tech Stack
-- React (Vite)
-- Tailwind CSS
-
-
----
-```
-
-
----
